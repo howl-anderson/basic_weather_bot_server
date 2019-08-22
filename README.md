@@ -5,7 +5,7 @@ bash ./install_dependency.bash
 
 
 ## 训练
-本项目可以使用 GUI 来训练，但是可能会存在 bug, 因此目前推荐使用命令行来训练
+本项目可以使用 GUI 来训练，但是如果出现错误, 难以调试, 因此目前推荐使用命令行来训练
 ```bash
 rasa train
 ```
