@@ -1,3 +1,2 @@
-rasa_contrib
-tensorflow==1.14.0
 yahoo-weather
+rasa

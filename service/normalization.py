@@ -1,7 +1,12 @@
 import datetime
+from typing import Optional
 
 
-def text_to_date(text_date):
+def text_to_date(text_date: str) -> Optional[datetime.date]:
+    """
+    convert text based date info into datatime object
+    """
+
     today = datetime.datetime.now()
     one_more_day = datetime.timedelta(days=1)
 

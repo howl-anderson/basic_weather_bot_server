@@ -1,3 +1,6 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
 - goodbye
 - greet
@@ -15,7 +18,7 @@ slots:
     type: text
   matches:
     type: unfeaturized
-templates:
+responses:
   utter_greet:
   - text: 你好，请说出需要提供天气预测服务的地点和时间
   utter_working_on_it:
@@ -38,3 +41,4 @@ actions:
 - utter_greet
 - utter_report_weather
 - utter_working_on_it
+- utter_default
