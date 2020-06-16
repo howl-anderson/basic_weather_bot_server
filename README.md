@@ -44,7 +44,7 @@ SENIVERSE_KEY=xxxx rasa run actions
 make run_model
 ```
 
-### [可选]_启动 rasa x
+### [可选] 启动 rasa x
 为了能够在不使用（或者没有）客户端的情况下以及测试模型的情况，我们可以使用 rasa x
 
 ```bash
