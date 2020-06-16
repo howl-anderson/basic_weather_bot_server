@@ -1,8 +1,9 @@
 # for Dev
 *.db
+*.db-shm
+*.db-wal
 *.log
-models/*
-data/nlu.json
+*.json
 
 # for IDE
 .idea
