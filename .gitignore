@@ -4,6 +4,7 @@
 *.db-wal
 *.log
 *.json
+bin_data/total_word_feature_extractor.dat
 
 # for IDE
 .idea
