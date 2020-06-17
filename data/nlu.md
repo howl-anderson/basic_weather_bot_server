@@ -160,3 +160,6 @@
 
 ## synonym:上海
 - 魔都
+
+## lookup:cities
+table_data/cities.txt
